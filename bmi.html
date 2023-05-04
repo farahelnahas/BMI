@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+      
+    <link rel="stylesheet" href="bmi.css">
+  </head>
+  <body>
+    <div class="all">
+      <div class="first">
+        <nav class="nav-bar">
+          <div class="left">
+            <h1>Elnahas <span>Lap</span></h1>
+          </div>
+
+          <div class="right">
+            <ul>
+              <li><a href="#Home"> Home </a></li>
+              <li><a href="#bmmi"> BMI</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="bgimg"></div>
+        <div id="content">
+          <h1 id="bmmi" class="welcome">
+            Welcome to our website! <br />
+            We're glad you're here.
+          </h1>
+          <br />
+          <p id="intro"></p>
+        </div>
+
+        <div class="bmi-page">
+          <img src="p1.jpg">
+          <div>
+            <h2>Enter your height <br />(cm)</h2>
+            <input type="text" id="height" />
+          </div>
+          <div>
+            <h2>
+              Enter your weight
+              <br />
+              (kg)
+            </h2>
+            <input type="text" id="weight" />
+          </div>
+          <br />
+          <div>
+            <button id="btn">Calculate</button>
+          </div>
+          <div>
+            <h4 id="bmi"></h4>
+            <h3 id="btn-category"></h3>
+          </div>
+        </div>
+        <div class="advise" id="Contact">
+          <h1>How accurate is BMI?</h1>
+          <ul>
+            <li>
+              <a href=""
+                >BMI is a helpful guide for most people over 18, but it is not
+                perfect and does not work for some groups of people, for
+                example:
+              </a>
+            </li>
+            <li>
+              <a href=""
+                >Adults with a very athletic build (professional athletes) could
+                show as overweight. This is because muscle weighs more than fat,
+                and BMI doesn’t take this into account. <br />
+              </a>
+            </li>
+            <li>
+              <a href=""
+                >If you’re pregnant, BMI doesn’t apply. You should seek advice
+                from your doctor or midwife on what a healthy weight is. If
+                you’re of Black African, African Caribbean, South Asian,
+                Chinese, Middle Eastern and mixed family origin, your risk of
+                chronic health conditions is greater at a lower BMI than in the
+                white population. Risk begins to increase at a BMI of 23, and
+                people with a BMI of 27.5 will be at high risk.</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="end">
+          <h1 class="title">Contact Us</h1>
+          <div id="contact">
+            <div class="card phone">
+              <h2>phone</h2>
+              <p>+20123456789</p>
+            </div>
+            <div class="card email">
+              <h2>Email</h2>
+              <p>abcdefghk@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
